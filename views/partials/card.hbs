@@ -1,0 +1,10 @@
+ <div class="card">
+    <h2>{{name}}</h2>
+    <img src={{image}} alt={{name}}/>
+    <p>{{description}}</p>
+    {{#if maxPlayers}}
+    <small>Maximum number of players: {{maxPlayers}}</small>
+      {{else}}
+      <small>No maximum number of players specified</small>
+    {{/if}}
+  </div>

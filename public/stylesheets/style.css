@@ -1,0 +1,26 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+div.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+div.card {
+  border: 1px solid lightblue;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35%;
+}
+
+div.card img {
+  width: 300px;
+}
